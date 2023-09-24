@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mary Tsaryk</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".topCloudContainer").animate({ top: "3rem" }, 1500);
+            $(".bottomCloudContainer").animate({ top: "18rem" }, 1500);
+        });
+    </script>
+</head>
+<body>
+ 
+<!-- Top Part of The Page -->
+
+    <div class="topContainer">
+        <!-- Top Cloud -->
+        <div class="topCloudContainer">
+            <img id="topCloud" src="images/cloud.png" alt="cloud-img0">
+        </div>
+        <!-- Textual Part -->
+        <div class="textContainer">
+            <h1>I'm Mary</h1>
+            <h2>a <span id="web">web</span> developer.</h2>
+        </div>
+        <!-- Bottom Cloud -->
+        <div class="bottomCloudContainer">
+            <img id="bottomCloud" src="images/cloud.png" alt="cloud-img1">
+        </div>
+        <!-- Mountain -->
+        <img id="mountain" src="images/mountain.png" alt="mountain-img">
+    </div>
+
+    <!-- Middle Part of The Page -->
+
+    <div class="middleContainer">
+        <div class="profile">
+            <img id="profilePic" src="images/girl.png" alt="profilePic">
+            <h2>Hello.</h2>
+            <p class="intro">I'm Mary Tsaryk - a junior web developer and a tech enthusiast. Communication is my passion, and active listening is my secret sauce for crafting intuitive and engaging experiences. My keen attention to detail drives me to create innovative interaction models that open up endless possibilities.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills</h2>
+        <div class="skill-row">
+            <img id="designPic" src="images/design.png" alt="computerPic">
+            <h3>Design and Development</h3>
+            <p>Navigating the intersection of creativity and functionality is where I thrive. My knack for understanding diverse client personas enables me to forge robust interpersonal connections, fueling the path to optimal solutions. Equipped with front-end coding expertise and familiarity with different frameworks, I'm here to transform ideas into captivating digital realities. Let's innovate together!</p>
+         </div>
+        <div class="skill-row">
+            <img id="cookingPic" src="images/airplane.png" alt="planePic">
+            <h3>Flying</h3>
+            <p>When I'm not immersed in the digital realm, I'm soaring through the skies in light aircraft. Seeing the world from above gives me a refreshing perspective on life's horizons.</p>
+         </div>
+        </div>
+        <hr>
+        <div class="contactMe">
+            <h2>Get In Touch</h2>
+            <img id="contactPic" src="images/contact.png" alt="networkPic">
+            <h3 id="invitation">Join me at tsaryk.io as we explore the fusion of technology and creativity!</h3>
+            <p class="contactMessage">Reach out and let's explore the endless possibilities of the digital realm.</p>
+            <a class="btn" href="mailto:mary.tsaryk@gmail.com">CONTACT ME</a>
+        </div>
+    </div>
+    <hr>
+
+    <div class="bottomContainer">
+        <a class="footerLink" href="https://www.instagram.com/tsaryk.io/">Instagram</a>
+        <a class="footerLink" href="https://www.tiktok.com/@shark.the.fish">TikTok</a>
+        <a class="footerLink" href="https://www.linkedin.com/in/mary-tsaryk/">LinkedIn</a>
+        <a class="footerLink" href="https://www.pinterest.com/marytsaryk/">Pinterest</a>
+        <p id="copyright">© 2023 Mary Tsaryk</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+/*****************************************************ELEMENTS****************************************************************************/
+body {
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #40514e;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    color: #3C6255;
+    font-family: 'Sacramento', cursive;
+    font-size: 3.15rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3C6255;
+    font-size: 1.1rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #61876E;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    
+    border: dotted #A6BB8D 5px;
+    border-bottom: none;
+    width: 20%;
+    margin: 100px auto;
+}
+
+a {
+    color: #61876E;
+    font-family: 'Montserrate', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAE7B1;
+}
+
+/*****************************************************CLASSES****************************************************************************/
+
+.topContainer {
+    background-color: #A6BB8D;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 0;
+    z-index: -3;
+ }
+ 
+ .middleContainer {
+     text-align: center;
+     padding-top: 50px;
+ }
+ 
+ .bottomContainer {
+    background-color: #A6BB8D;
+    position: relative;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 50px 0 20px;
+ }
+
+ .profile {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 50%;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.contactMessage {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #EAE7B1;
+    font-size: 20px;
+    background: #61876E;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #A6BB8D;
+    text-decoration: none;
+  }
+
+  /* .header {
+        position: relative;
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-right: auto;
+        margin-left: auto;
+  } */
+
+  .topCloudContainer, .bottomCloudContainer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: -1; /* Place clouds behind other content */
+}
+
+    .textContainer {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+  
+/*****************************************************ID'S****************************************************************************/
+
+#topCloud {
+    position: absolute;
+    right: 300px;
+   
+}
+
+#web {
+    text-decoration: underline;
+}
+
+#bottomCloud {
+    position: absolute;
+    left: 200px;
+}
+
+#mountain {
+    position: relative;
+    padding-top: 100px;
+    width: 300px;
+}
+
+#profilePic{
+    padding-top: 50px;
+    width: 200px;
+}
+
+#designPic {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+#cookingPic {
+    width: 200px;
+    float: right;
+    margin-left: 30px;
+}
+
+#contactPic {
+    width: 200px;
+}
+
+#invitation {
+        width: 50%;
+        margin: auto;
+}
+
+#copyright {
+    padding: 20px 0;
+    color: #EAE7B1;
+    font-size: 0.75rem;
+}
